@@ -63,6 +63,7 @@ int main(){
 
     string Name = "Drake";
     string Company = "NVIDIA";
+    string gender = "Male";
     int age = 21;
 
     employee_1.setname("Drake");
@@ -76,6 +77,10 @@ int main(){
     employee_1.setage(21);
     age = employee_1.getage();
     cout<<" Employee age is "<<age<<endl;
+
+   employee_1.setgender("Male");
+   gender = employee_1.getgender();
+   cout<<"Employee gender is "<<gender<<endl;
      
      string employee2Name = employee_2.getname();
      cout<<"Employee 2 name is "<<employee2Name<<endl;
